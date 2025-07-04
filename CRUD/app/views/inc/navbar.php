@@ -17,19 +17,19 @@
                 Dashboard
             </a>
 
-            <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-item has-dropdown is-hoverable"> 
                 <a class="navbar-link" href="#">
                     Usuarios
                 </a>
                 <div class="navbar-dropdown is-boxed">
 
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="<?php echo APP_URL; ?>userNew/">
                         Nuevo
                     </a>
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="<?php echo APP_URL; ?>userList/">
                         Lista
                     </a>
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="<?php echo APP_URL; ?>userSearch/">
                         Buscar
                     </a>
 

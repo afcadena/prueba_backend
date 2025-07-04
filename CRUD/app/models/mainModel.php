@@ -138,8 +138,6 @@
             $sql=$this->conectar()->prepare("DELETE FROM $tabla WHERE $campo =:id");
             $sql->bindParam(":id",$id);
             $sql->execute();
-            
             return $sql;
-
         }
     }
